@@ -5,7 +5,8 @@ const schema = {
     name: String,
     age: Number,
     health: String,
-    hobby:String
+    hobby:String,
+    sex:String
 }
 const Cat = mongoose.model('Cat', schema);
 
